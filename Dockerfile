@@ -22,6 +22,7 @@ ARG VERSION
 
 RUN apk add --no-cache \
         make \
+        py3-pygments \
         texlive \
         texmf-dist \
         texmf-dist-latexextra \
