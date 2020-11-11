@@ -1,4 +1,4 @@
-FROM alpine:latex
+FROM alpine:latest
 
 LABEL maintainer="Gabriel Duque <gabriel@zuh0.com> (zuh0)"
 
