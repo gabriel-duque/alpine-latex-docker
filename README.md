@@ -3,7 +3,7 @@
 A simple image to build LaTex projects. In order for this to work, you have to
 have a `Makefile` which builds you project.
 
-Once you have that, all you have to do is run while in the root directory of
+Once you have that, all you have to do is run this while in the root directory of
 you project:
 
 ```
