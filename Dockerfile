@@ -23,7 +23,12 @@ ARG VERSION
 RUN apk add --no-cache \
         make \
         texlive \
-        texmf-dist
+        texmf-dist \
+        texmf-dist-latexextra \
+    && mkdir -p "/source"
+
+
+WORKDIR /source
 
 VOLUME /source
 
